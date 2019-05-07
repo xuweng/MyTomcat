@@ -240,13 +240,13 @@ public class ServletMappingConfig {
     public static List<ServletMapping> servletMappingList = new ArrayList<>();
 
     static {
-        servletMappingList.add(new ServletMapping("helloWorld","/hello","mytomcat.HelloWorldServlet"));
+        servletMappingList.add(new ServletMapping("helloWorld","/world","mytomcat.HelloWorldServlet"));
     }
 }
 ```
 当然一般这个配置是通过xml文件去配置的。
 
-下面是处理/hello请求的处理类
+下面是处理/world请求的处理类
 ```
 package mytomcat;
 
