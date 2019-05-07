@@ -463,7 +463,7 @@ public class MyTomcat {
 
 # 测试
 
-当我们在浏览器中输入*http://localhost:8080/world?data=yes*时，成功得到了预期的结果
+当我们在浏览器中输入*http://localhost:8080/world?data=yes* 时，成功得到了预期的结果
 
 ![20190507211817.jpg](https://vr360-beifengtz.oss-cn-beijing.aliyuncs.com/beifeng-blog/article/%E8%BF%B7%E4%BD%A0%E7%89%88Tomcat/20190507211817.jpg)
 
